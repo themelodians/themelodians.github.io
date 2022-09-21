@@ -1,0 +1,1554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+    <!-- .......... Title .......... -->
+    <title>Symphonius — One Page Template</title>
+    <!-- .......... End Title .......... -->
+
+    <!-- .......... Fonts and Extras .......... -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7cOverpass+Mono:700&display=swap">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <!-- .......... End Fonts and Extras .......... -->
+
+    <!-- .......... Styles .......... -->
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- .......... End Styles .......... -->
+
+    <!-- .......... Favicons .......... -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="img/favicons/site.webmanifest">
+    <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#080618">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-config" content="img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- .......... End Favicons .......... -->
+
+</head>
+
+<body class="loading">
+
+    <!-- .......... Preloader .......... -->
+    <div class="js-preloader preloader"></div>
+    <!-- .......... End Preloader .......... -->
+
+    <!-- .......... Fixed Top Panel Start .......... -->
+    <header class="panel js-panel">
+        <div class="container--panel uk-container uk-height-1-1">
+            <div class="uk-flex uk-flex-middle uk-height-1-1" data-uk-grid>
+                <div class="uk-width-1-3 uk-width-1-6@m">
+                    <div class="logo logo--panel uk-visible@m">
+                        <a href="#intro" data-uk-scroll>
+                            <!-- .......... Logo .......... -->
+                            <img src="img/logo.svg" alt="">
+                            <!-- .......... End Logo .......... -->
+                        </a>
+                    </div>
+                    <div class="logo logo--panel uk-hidden@m">
+                        <a href="#intro" data-uk-scroll>
+                            <!-- .......... Mobile Version Logo .......... -->
+                            <img src="img/logo_small.svg" alt="">
+                            <!-- .......... End Mobile Version Logo .......... -->
+                        </a>
+                    </div>
+                </div>
+                <div class="uk-width-2-3 uk-visible@m">
+                    <!-- .......... Navigation .......... -->
+                    <ul class="nav nav--panel js-scrollspy-nav uk-flex uk-flex-wrap">
+                        <li><a href="#about_us">About us</a></li>
+                        <li><a href="#music">Music</a></li>
+                        <li><a href="#video">Video</a></li>
+                        <li><a href="#tour">Tour</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                    </ul>
+                    <!-- .......... End Navigation .......... -->
+                </div>
+                <div class="uk-width-1-3 uk-width-1-6@m">
+                    <!-- .......... Player Controls .......... -->
+                    <div class="panel__player">
+                        <audio class="js-audio" preload="metadata"></audio>
+                        <button type="button" class="icon icon--play-pause icon--play js-panel-play"></button>
+                        <a class="mejs__horizontal-volume-slider js-panel-volume">
+                            <div class="mejs__horizontal-volume-total">
+                                <div class="mejs__horizontal-volume-current"></div>
+                            </div>
+                        </a>
+                    </div>                    
+                    <!-- .......... End Player Controls .......... -->
+                </div>
+                <div class="uk-width-1-3 uk-hidden@m uk-text-right">
+                    <!-- .......... Navigation Toggle .......... -->
+                    <a href="#" data-uk-toggle="target: #offcanvas-nav">Menu</a>
+                    <!-- .......... End Navigation Toggle .......... -->
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- .......... End Fixed Top Panel .......... -->
+    <div id="offcanvas-nav" data-uk-offcanvas="flip: true; mode: push; overlay: true">
+        <div class="uk-offcanvas-bar">
+            <button class="modal__close uk-offcanvas-close" type="button" data-uk-close></button>
+            <!-- .......... Navigation .......... -->
+            <ul class="nav nav--offcanvas js-scrollspy-nav js-offcanvas-nav uk-flex">
+                <li><a href="#about_us">About us</a></li>
+                <li><a href="#music">Music</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+            <!-- .......... End Navigation .......... -->
+        </div>
+    </div>
+
+    <!-- .......... Intro Section Start .......... -->
+    <section class="intro uk-margin-large-bottom">
+        <div class="uk-container uk-container-large">
+            <div class="uk-grid-collapse" data-uk-grid>
+                <div class="intro__sidebar uk-width-1-4@m uk-visible@m uk-position-relative">
+                    <div class="logo logo--intro">
+                        <!-- .......... Logo .......... -->
+                        <img src="img/logo.svg" alt="">
+                        <!-- .......... End Logo .......... -->
+                    </div>
+                    <!-- .......... Navigation .......... -->
+                    <ul class="nav nav--intro uk-list js-scrollspy-nav">
+                        <li><a href="#about_us">About us</a></li>
+                        <li><a href="#music">Music</a></li>
+                        <li><a href="#video">Video</a></li>
+                        <li><a href="#tour">Tour</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                    </ul>
+                    <!-- .......... End Navigation .......... -->
+                    <!-- .......... Social Media .......... -->
+                    <div class="social__wrapper">
+                        <div class="social social--intro">
+                            <h6 class="uk-h4 social__title c-dark--4">Social media</h6>
+                            <ul class="social__list uk-list uk-align-center">
+                                <li><a href="#" target="_black"><span class="fab fa-facebook-f"></span></a></li>
+                                <li><a href="#" target="_black"><span class="fab fa-youtube"></span></a></li>
+                                <li><a href="#" target="_black"><span class="fab fa-instagram"></span></a></li>
+                                <li><a href="#" target="_black"><span class="fab fa-twitter"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- .......... End Social Media .......... -->
+                </div>
+                <div class="uk-width-3-4@m">
+                    <div class="slider slider--intro uk-position-relative" data-uk-slideshow="animation: push">
+                        <!-- .......... Slider .......... -->
+                        <ul class="slider__items uk-slideshow-items">
+                            <li>
+                                <div class="slider__screen">
+                                    <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center">
+                                        <img class="slider__image" src="img/slider/01.jpg" alt="" data-uk-cover>
+                                    </div>
+                                    <div class="slider__inner uk-position-top">
+                                        <div data-uk-slideshow-parallax="scale: 1,1,0.8">
+                                            <h2 class="intro__title"><span class="js-intro-title uk-hidden">Released a new live album, now available on iTunes</span></h2>
+                                            <p><a class="btn btn--more" href="#article-1" data-uk-toggle>Read more <span class="icon icon--dots"></span></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="slider__screen">
+                                    <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center">
+                                        <img class="slider__image" src="img/slider/02.jpg" alt="" data-uk-cover>
+                                    </div>
+                                    <div class="slider__inner uk-position-top">
+                                        <div data-uk-slideshow-parallax="scale: 1,1,0.8">
+                                            <h2 class="intro__title"><span class="js-intro-title uk-hidden">The rescheduling of the tour</span></h2>
+                                            <p><a class="btn btn--more">Read more <span class="icon icon--dots"></span></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="slider__screen">
+                                    <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center">
+                                        <img class="slider__image" src="img/slider/03.jpg" alt="" data-uk-cover>
+                                    </div>
+                                    <div class="slider__inner uk-position-top">
+                                        <div data-uk-slideshow-parallax="scale: 1,1,0.8">
+                                            <h2 class="intro__title"><span class="js-intro-title uk-hidden">Now we are on instagram</span></h2>
+                                            <p><a class="btn btn--more">Follow now <span class="icon icon--dots"></span></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <!-- .......... Slider Controls .......... -->
+                        <a class="slider__control" href="#" data-uk-slidenav-next data-uk-slideshow-item="next"></a>
+                        <!-- .......... End Slider Controls .......... -->
+                        <!-- .......... Slider Navigation .......... -->
+                        <ul class="js-slider-intro-nav uk-slideshow-nav uk-dotnav uk-flex-column uk-flex-center"></ul>
+                        <!-- .......... End Slider Navigation .......... -->
+                        <!-- .......... End Slider .......... -->
+                    </div>
+                    <div class="events events--intro uk-position-relative uk-visible@l">
+                        <div class="events__grid--intro uk-child-width-1-4 uk-grid-small" data-uk-grid>
+                            <div class="events__title__wrap">
+                                <h3 class="events__title uk-h3 c-dark--4">Upcoming events</h3>
+                            </div>
+                            <!-- .......... Latest Events .......... -->
+                            <div>
+                                <a href="#tour" data-uk-scroll="offset: 80">
+                                    <div class="events__block bg-dark--1 uk-grid-collapse" data-uk-grid>
+                                        <div class="events__date uk-width-auto">
+                                            <span class="events__day">31</span>
+                                            <span class="events__month">dec</span>
+                                            <span class="events__year">2021</span>
+                                        </div>
+                                        <div class="events__location uk-width-expand">
+                                            <span class="events__place">Amsterdam NL</span>
+                                            <span class="events__club">Ziggo Dome</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#tour" data-uk-scroll="offset: 80">
+                                    <div class="events__block bg-dark--2 uk-grid-collapse" data-uk-grid>
+                                        <div class="events__date uk-width-auto">
+                                            <span class="events__day">05</span>
+                                            <span class="events__month">feb</span>
+                                            <span class="events__year">2022</span>
+                                        </div>
+                                        <div class="events__location uk-width-expand">
+                                            <span class="events__place">Milan IT</span>
+                                            <span class="events__club">Mediolanum Forum</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#tour" data-uk-scroll="offset: 80">
+                                    <div class="events__block bg-dark--3 uk-grid-collapse" data-uk-grid>
+                                        <div class="events__date uk-width-auto">
+                                            <span class="events__day">12</span>
+                                            <span class="events__month">mar</span>
+                                            <span class="events__year">2022</span>
+                                        </div>
+                                        <div class="events__location uk-width-expand">
+                                            <span class="events__place">Manchester UK</span>
+                                            <span class="events__club">Manchester Arena</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- .......... End Latest Events .......... -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- .......... End Intro Section .......... -->
+
+
+    <!-- .......... About Us Section .......... -->
+    <section id="about_us" class="about uk-section" data-uk-scrollspy="cls:uk-animation-fade; offset-top: 80px; delay: 300">
+        <div class="uk-container uk-container-large">
+            <div class="about__grid uk-grid-collapse uk-flex" data-uk-grid>
+                <div class="uk-width-1-2@s">
+                    <div class="about__info">
+                        <h2 class="uk-h2">About us</h2>
+                        <p>
+                            A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.
+                        </p>
+                        <p>
+                            I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.
+                        </p>
+                    </div>
+                </div>
+                <div class="uk-width-1-2@s uk-flex-first@s">
+                    <img class="about__photo" src="img/about.jpg" data-src="img/about.jpg" alt="" data-uk-img>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- .......... End About Us Section .......... -->
+
+
+    <!-- .......... Meet Team Section .......... -->
+    <section class="team uk-section uk-overflow-hidden" data-uk-scrollspy="cls:uk-animation-fade; offset-top: 80px; delay: 300">
+        <div class="container--min uk-container uk-position-relative">
+            <h3 class="team__title uk-h3"><span class="team__title_inner">Meet team</span></h3>
+            <div class="team__members uk-flex uk-flex-center" data-uk-grid data-uk-scrollspy="cls:uk-animation-fade; target: .team__member__wrap; delay: 300">
+                <div class="team__member__wrap uk-width-1-2 uk-width-1-4@m">
+                    <a class="team__member" data-uk-toggle="target: #mathew_hyatt">
+                        <div class="cover__photo uk-background-cover uk-transition-toggle" data-src="img/team/avatars/Mathew_Hyatt.jpg" data-uk-img>
+                            <span class="cover__link boxshadow icon icon--dots uk-transition-scale-up"></span>
+                        </div>
+                        <span class="team__name">Mathew Hyatt</span>
+                        <span class="team__vocation">Vocal, guitar</span>
+                    </a>
+                </div>
+                <div class="team__member__wrap uk-width-1-2 uk-width-1-4@m">
+                    <a class="team__member" data-uk-toggle="target: #jessika_turcotte">
+                        <div class="cover__photo uk-background-cover uk-transition-toggle" data-src="img/team/avatars/Jessika_Turcotte.jpg" data-uk-img>
+                            <span class="cover__link boxshadow icon icon--dots uk-transition-scale-up"></span>
+                        </div>
+                        <span class="team__name">Jessika Turcotte</span>
+                        <span class="team__vocation">Vocal, piano</span>
+                    </a>
+                </div>
+                <div class="team__member__wrap uk-width-1-2 uk-width-1-4@m">
+                    <a class="team__member" data-uk-toggle="target: #toby_halvorson">
+                        <div class="cover__photo uk-background-cover uk-transition-toggle" data-src="img/team/avatars/Toby_Halvorson.jpg" data-uk-img>
+                            <span class="cover__link boxshadow icon icon--dots uk-transition-scale-up"></span>
+                        </div>
+                        <span class="team__name">Toby Halvorson</span>
+                        <span class="team__vocation">Bass guitar</span>
+                    </a>
+                </div>
+                <div class="team__member__wrap uk-width-1-2 uk-width-1-4@m">
+                    <a class="team__member" data-uk-toggle="target: #anna_mayer">
+                        <div class="cover__photo uk-background-cover uk-transition-toggle" data-src="img/team/avatars/Anna_Mayer.jpg" data-uk-img>
+                            <span class="cover__link boxshadow icon icon--dots uk-transition-scale-up"></span>
+                        </div>
+                        <span class="team__name">Anna Mayer</span>
+                        <span class="team__vocation">Drums</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- .......... End Meet Team Section .......... -->
+
+
+    <!-- .......... Music Section .......... -->
+    <section id="music" class="music uk-section" data-uk-scrollspy="cls:uk-animation-fade; offset-top: 80px; delay: 300">
+        <div class="container--min uk-container">
+            <h2 class="uk-h2">Music</h2>
+            <div class="uk-child-width-1-1 uk-child-width-1-2@m" data-uk-grid>
+                <div class="uk-flex-last">
+                    <!-- .......... Albums List .......... -->
+                    <div class="albums albums--list" data-uk-switcher="connect: .playlist__wrap>.uk-switcher; animation: uk-animation-fade">
+                        <!-- .......... Album .......... -->
+                        <div class="albums__item uk-active">
+                            <div class="albums__cover">
+                                <div class="cover__photo uk-background-cover" data-src="img/albums/01.jpg" data-uk-img>
+                                    <span class="cover__link boxshadow icon icon--pause"></span>
+                                </div>
+                            </div>
+                            <div class="album__details">
+                                <span class="albums__title">Origins [Live]</span>
+                                <span class="albums__year">2018</span>
+                                <span class="albums__buy">
+                                    <span class="albums__buy_buttons">
+                                        <a href="#" target="_blank"><span class="fab fa-apple"></span></a>
+                                        <a href="#" target="_blank"><span class="fab fa-spotify"></span></a>
+                                        <a href="#" target="_blank"><span class="fab fa-amazon"></span></a>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- .......... End Album .......... -->
+                        <!-- .......... Album .......... -->
+                        <div class="albums__item">
+                            <div class="albums__cover">
+                                <div class="cover__photo uk-background-cover" data-src="img/albums/02.jpg" data-uk-img>
+                                    <span class="cover__link boxshadow icon icon--pause"></span>
+                                </div>
+                            </div>
+                            <div class="album__details">
+                                <span class="albums__title">Greatest Hits</span>
+                                <span class="albums__year">2018</span>
+                                <span class="albums__buy">
+                                    <span class="albums__buy_buttons">
+                                        <a href="#" target="_blank"><span class="fab fa-apple"></span></a>
+                                        <a href="#" target="_blank"><span class="fab fa-spotify"></span></a>
+                                        <a href="#" target="_blank"><span class="fab fa-amazon"></span></a>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- .......... End Album .......... -->
+                        <!-- .......... Album .......... -->
+                        <div class="albums__item">
+                            <div class="albums__cover">
+                                <div class="cover__photo uk-background-cover" data-src="img/albums/03.jpg" data-uk-img>
+                                    <span class="cover__link boxshadow icon icon--pause"></span>
+                                </div>
+                            </div>
+                            <div class="album__details">
+                                <span class="albums__title">Red [EP]</span>
+                                <span class="albums__year">2017</span>
+                                <span class="albums__buy">
+                                    <span class="albums__buy_buttons">
+                                        <a href="#" target="_blank"><span class="fab fa-apple"></span></a>
+                                        <a href="#" target="_blank"><span class="fab fa-spotify"></span></a>
+                                        <a href="#" target="_blank"><span class="fab fa-amazon"></span></a>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- .......... End Album .......... -->
+                        <!-- .......... Album .......... -->
+                        <div class="albums__item">
+                            <div class="albums__cover">
+                                <div class="cover__photo uk-background-cover" data-src="img/albums/04.jpg" data-uk-img>
+                                    <span class="cover__link boxshadow icon icon--pause"></span>
+                                </div>
+                            </div>
+                            <div class="album__details">
+                                <span class="albums__title">The Millions Unknown Roads</span>
+                                <span class="albums__year">2017</span>
+                                <span class="albums__buy">
+                                    <span class="albums__buy_buttons">
+                                        <a href="#" target="_blank"><span class="fab fa-apple"></span></a>
+                                        <a href="#" target="_blank"><span class="fab fa-spotify"></span></a>
+                                        <a href="#" target="_blank"><span class="fab fa-amazon"></span></a>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- .......... End Album .......... -->
+                        <!-- .......... Album .......... -->
+                        <div class="albums__item">
+                            <div class="albums__cover">
+                                <div class="cover__photo uk-background-cover" data-src="img/albums/05.jpg" data-uk-img>
+                                    <span class="cover__link boxshadow icon icon--pause"></span>
+                                </div>
+                            </div>
+                            <div class="album__details">
+                                <span class="albums__title">Emotions</span>
+                                <span class="albums__year">2016</span>
+                                <span class="albums__buy">
+                                    <span class="albums__buy_buttons">
+                                        <a href="#" target="_blank"><span class="fab fa-apple"></span></a>
+                                        <a href="#" target="_blank"><span class="fab fa-spotify"></span></a>
+                                        <a href="#" target="_blank"><span class="fab fa-amazon"></span></a>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- .......... End Album .......... -->
+                    </div>
+                    <!-- .......... End Albums List .......... -->
+                </div>
+                <div class="playlist__wrap">
+                    <div class="uk-switcher">
+                        
+                        <!-- .......... Album Tracks .......... -->
+                        <div class="playlist bg-dark--1 uk-active">
+                            <div class="albums albums--playlist albums__item">
+                                <div class="albums__cover">
+                                    <img src="img/albums/01.jpg" data-src="img/albums/01.jpg" alt="" data-uk-img>
+                                </div>
+                                <div class="album__details">
+                                    <span class="albums__title">Origins [Live]</span>
+                                    <span class="albums__year">2018</span>
+                                </div>
+                                <div class="albums__buy uk-visible@s">
+                                    <h6 class="albums__buy_title uk-h6">Available on</h6>
+                                    <div class="albums__buy_buttons">
+                                        <a href="#" target="_blank"><span class="fab fa-apple"></span></a>
+                                        <a href="#" target="_blank"><span class="fab fa-spotify"></span></a>
+                                        <a href="#" target="_blank"><span class="fab fa-amazon"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="js-audio-items tracks list--striped">
+                                <li class="list__item" data-audio="media/audio/24109970_happy-la-la-la-ukulele_by_stellartracks_preview.mp3">
+                                    <button type="button" class="icon icon--play-pause icon--play js-audio-play"></button>
+                                    <span class="tracks__title">Happy</span>
+                                    <span class="js-audio-time tracks__time"></span>
+                                    <a class="mejs__horizontal-volume-slider js-panel-volume">
+                                        <div class="mejs__horizontal-volume-total">
+                                            <div class="mejs__horizontal-volume-current"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list__item" data-audio="media/audio/24465921_groovy-funk-rock_by_kirillbara_preview.mp3">
+                                    <button type="button" class="icon icon--play-pause icon--play js-audio-play"></button>
+                                    <span class="tracks__title">Groovy Funk Rock</span>
+                                    <span class="js-audio-time tracks__time"></span>
+                                    <a class="mejs__horizontal-volume-slider js-audio-volume">
+                                        <div class="mejs__horizontal-volume-total">
+                                            <div class="mejs__horizontal-volume-current"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list__item" data-audio="media/audio/23350988_motivational-indie-ambient_by_electromaria_preview.mp3">
+                                    <button type="button" class="icon icon--play-pause icon--play js-audio-play"></button>
+                                    <span class="tracks__title">Motivational Indie Ambient</span>
+                                    <span class="js-audio-time tracks__time"></span>
+                                    <a class="mejs__horizontal-volume-slider js-audio-volume">
+                                        <div class="mejs__horizontal-volume-total">
+                                            <div class="mejs__horizontal-volume-current"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list__item" data-audio="media/audio/24467502_how-to-skateboard-rock_by_vigintillion_preview.mp3">
+                                    <button type="button" class="icon icon--play-pause icon--play js-audio-play"></button>
+                                    <span class="tracks__title">How to Skateboard Rock</span>
+                                    <span class="js-audio-time tracks__time"></span>
+                                    <a class="mejs__horizontal-volume-slider js-audio-volume">
+                                        <div class="mejs__horizontal-volume-total">
+                                            <div class="mejs__horizontal-volume-current"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list__item" data-audio="media/audio/24468528_funky_by_akne-music_preview.mp3">
+                                    <button type="button" class="icon icon--play-pause icon--play js-audio-play"></button>
+                                    <span class="tracks__title">Funky</span>
+                                    <span class="js-audio-time tracks__time"></span>
+                                    <a class="mejs__horizontal-volume-slider js-audio-volume">
+                                        <div class="mejs__horizontal-volume-total">
+                                            <div class="mejs__horizontal-volume-current"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- .......... End Album Tracks .......... -->
+                        <!-- .......... Album Tracks .......... -->
+                        <div class="playlist bg-dark--1">
+                            <div class="albums albums--playlist albums__item">
+                                <div class="albums__cover">
+                                    <img src="img/albums/02.jpg" data-src="img/albums/02.jpg" alt="" data-uk-img>
+                                </div>
+                                <div class="album__details">
+                                    <span class="albums__title">Greatest Hits</span>
+                                    <span class="albums__year">2018</span>
+                                </div>
+                                <div class="albums__buy uk-visible@s">
+                                    <h6 class="albums__buy_title uk-h6">Available on</h6>
+                                    <div class="albums__buy_buttons">
+                                        <a href="#" target="_blank"><span class="fab fa-apple"></span></a>
+                                        <a href="#" target="_blank"><span class="fab fa-spotify"></span></a>
+                                        <a href="#" target="_blank"><span class="fab fa-amazon"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="js-audio-items tracks list--striped">
+                                <li class="list__item" data-audio="media/audio/24109970_happy-la-la-la-ukulele_by_stellartracks_preview.mp3">
+                                    <button type="button" class="icon icon--play-pause icon--play js-audio-play"></button>
+                                    <span class="tracks__title">Happy</span>
+                                    <span class="js-audio-time tracks__time"></span>
+                                    <a class="mejs__horizontal-volume-slider js-panel-volume">
+                                        <div class="mejs__horizontal-volume-total">
+                                            <div class="mejs__horizontal-volume-current"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list__item" data-audio="media/audio/24465921_groovy-funk-rock_by_kirillbara_preview.mp3">
+                                    <button type="button" class="icon icon--play-pause icon--play js-audio-play"></button>
+                                    <span class="tracks__title">Groovy Funk Rock</span>
+                                    <span class="js-audio-time tracks__time"></span>
+                                    <a class="mejs__horizontal-volume-slider js-audio-volume">
+                                        <div class="mejs__horizontal-volume-total">
+                                            <div class="mejs__horizontal-volume-current"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list__item" data-audio="media/audio/23350988_motivational-indie-ambient_by_electromaria_preview.mp3">
+                                    <button type="button" class="icon icon--play-pause icon--play js-audio-play"></button>
+                                    <span class="tracks__title">Motivational Indie Ambient</span>
+                                    <span class="js-audio-time tracks__time"></span>
+                                    <a class="mejs__horizontal-volume-slider js-audio-volume">
+                                        <div class="mejs__horizontal-volume-total">
+                                            <div class="mejs__horizontal-volume-current"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list__item" data-audio="media/audio/24467502_how-to-skateboard-rock_by_vigintillion_preview.mp3">
+                                    <button type="button" class="icon icon--play-pause icon--play js-audio-play"></button>
+                                    <span class="tracks__title">How to Skateboard Rock</span>
+                                    <span class="js-audio-time tracks__time"></span>
+                                    <a class="mejs__horizontal-volume-slider js-audio-volume">
+                                        <div class="mejs__horizontal-volume-total">
+                                            <div class="mejs__horizontal-volume-current"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list__item" data-audio="media/audio/24468528_funky_by_akne-music_preview.mp3">
+                                    <button type="button" class="icon icon--play-pause icon--play js-audio-play"></button>
+                                    <span class="tracks__title">Funky</span>
+                                    <span class="js-audio-time tracks__time"></span>
+                                    <a class="mejs__horizontal-volume-slider js-audio-volume">
+                                        <div class="mejs__horizontal-volume-total">
+                                            <div class="mejs__horizontal-volume-current"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- .......... End Album Tracks .......... -->
+                        <!-- .......... Album Tracks .......... -->
+                        <div class="playlist bg-dark--1">
+                            <div class="albums albums--playlist albums__item">
+                                <div class="albums__cover">
+                                    <img src="img/albums/03.jpg" data-src="img/albums/03.jpg" alt="" data-uk-img>
+                                </div>
+                                <div class="album__details">
+                                    <span class="albums__title">Red [EP]</span>
+                                    <span class="albums__year">2017</span>
+                                </div>
+                                <div class="albums__buy uk-visible@s">
+                                    <h6 class="albums__buy_title uk-h6">Available on</h6>
+                                    <div class="albums__buy_buttons">
+                                        <a href="#" target="_blank"><span class="fab fa-apple"></span></a>
+                                        <a href="#" target="_blank"><span class="fab fa-spotify"></span></a>
+                                        <a href="#" target="_blank"><span class="fab fa-amazon"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="js-audio-items tracks list--striped">
+                                <li class="list__item" data-audio="media/audio/24109970_happy-la-la-la-ukulele_by_stellartracks_preview.mp3">
+                                    <button type="button" class="icon icon--play-pause icon--play js-audio-play"></button>
+                                    <span class="tracks__title">Happy</span>
+                                    <span class="js-audio-time tracks__time"></span>
+                                    <a class="mejs__horizontal-volume-slider js-panel-volume">
+                                        <div class="mejs__horizontal-volume-total">
+                                            <div class="mejs__horizontal-volume-current"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list__item" data-audio="media/audio/24465921_groovy-funk-rock_by_kirillbara_preview.mp3">
+                                    <button type="button" class="icon icon--play-pause icon--play js-audio-play"></button>
+                                    <span class="tracks__title">Groovy Funk Rock</span>
+                                    <span class="js-audio-time tracks__time"></span>
+                                    <a class="mejs__horizontal-volume-slider js-audio-volume">
+                                        <div class="mejs__horizontal-volume-total">
+                                            <div class="mejs__horizontal-volume-current"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list__item" data-audio="media/audio/23350988_motivational-indie-ambient_by_electromaria_preview.mp3">
+                                    <button type="button" class="icon icon--play-pause icon--play js-audio-play"></button>
+                                    <span class="tracks__title">Motivational Indie Ambient</span>
+                                    <span class="js-audio-time tracks__time"></span>
+                                    <a class="mejs__horizontal-volume-slider js-audio-volume">
+                                        <div class="mejs__horizontal-volume-total">
+                                            <div class="mejs__horizontal-volume-current"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list__item" data-audio="media/audio/24467502_how-to-skateboard-rock_by_vigintillion_preview.mp3">
+                                    <button type="button" class="icon icon--play-pause icon--play js-audio-play"></button>
+                                    <span class="tracks__title">How to Skateboard Rock</span>
+                                    <span class="js-audio-time tracks__time"></span>
+                                    <a class="mejs__horizontal-volume-slider js-audio-volume">
+                                        <div class="mejs__horizontal-volume-total">
+                                            <div class="mejs__horizontal-volume-current"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list__item" data-audio="media/audio/24468528_funky_by_akne-music_preview.mp3">
+                                    <button type="button" class="icon icon--play-pause icon--play js-audio-play"></button>
+                                    <span class="tracks__title">Funky</span>
+                                    <span class="js-audio-time tracks__time"></span>
+                                    <a class="mejs__horizontal-volume-slider js-audio-volume">
+                                        <div class="mejs__horizontal-volume-total">
+                                            <div class="mejs__horizontal-volume-current"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- .......... End Album Tracks .......... -->
+                        <!-- .......... Album Tracks .......... -->
+                        <div class="playlist bg-dark--1">
+                            <div class="albums albums--playlist albums__item">
+                                <div class="albums__cover">
+                                    <img src="img/albums/04.jpg" data-src="img/albums/04.jpg" alt="" data-uk-img>
+                                </div>
+                                <div class="album__details">
+                                    <span class="albums__title">The Millions Unknown Roads</span>
+                                    <span class="albums__year">2017</span>
+                                </div>
+                                <div class="albums__buy uk-visible@s">
+                                    <h6 class="albums__buy_title uk-h6">Available on</h6>
+                                    <div class="albums__buy_buttons">
+                                        <a href="#" target="_blank"><span class="fab fa-apple"></span></a>
+                                        <a href="#" target="_blank"><span class="fab fa-spotify"></span></a>
+                                        <a href="#" target="_blank"><span class="fab fa-amazon"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="js-audio-items tracks list--striped">
+                                <li class="list__item" data-audio="media/audio/24109970_happy-la-la-la-ukulele_by_stellartracks_preview.mp3">
+                                    <button type="button" class="icon icon--play-pause icon--play js-audio-play"></button>
+                                    <span class="tracks__title">Happy</span>
+                                    <span class="js-audio-time tracks__time"></span>
+                                    <a class="mejs__horizontal-volume-slider js-panel-volume">
+                                        <div class="mejs__horizontal-volume-total">
+                                            <div class="mejs__horizontal-volume-current"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list__item" data-audio="media/audio/24465921_groovy-funk-rock_by_kirillbara_preview.mp3">
+                                    <button type="button" class="icon icon--play-pause icon--play js-audio-play"></button>
+                                    <span class="tracks__title">Groovy Funk Rock</span>
+                                    <span class="js-audio-time tracks__time"></span>
+                                    <a class="mejs__horizontal-volume-slider js-audio-volume">
+                                        <div class="mejs__horizontal-volume-total">
+                                            <div class="mejs__horizontal-volume-current"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list__item" data-audio="media/audio/23350988_motivational-indie-ambient_by_electromaria_preview.mp3">
+                                    <button type="button" class="icon icon--play-pause icon--play js-audio-play"></button>
+                                    <span class="tracks__title">Motivational Indie Ambient</span>
+                                    <span class="js-audio-time tracks__time"></span>
+                                    <a class="mejs__horizontal-volume-slider js-audio-volume">
+                                        <div class="mejs__horizontal-volume-total">
+                                            <div class="mejs__horizontal-volume-current"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list__item" data-audio="media/audio/24467502_how-to-skateboard-rock_by_vigintillion_preview.mp3">
+                                    <button type="button" class="icon icon--play-pause icon--play js-audio-play"></button>
+                                    <span class="tracks__title">How to Skateboard Rock</span>
+                                    <span class="js-audio-time tracks__time"></span>
+                                    <a class="mejs__horizontal-volume-slider js-audio-volume">
+                                        <div class="mejs__horizontal-volume-total">
+                                            <div class="mejs__horizontal-volume-current"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list__item" data-audio="media/audio/24468528_funky_by_akne-music_preview.mp3">
+                                    <button type="button" class="icon icon--play-pause icon--play js-audio-play"></button>
+                                    <span class="tracks__title">Funky</span>
+                                    <span class="js-audio-time tracks__time"></span>
+                                    <a class="mejs__horizontal-volume-slider js-audio-volume">
+                                        <div class="mejs__horizontal-volume-total">
+                                            <div class="mejs__horizontal-volume-current"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- .......... End Album Tracks .......... -->
+                        <!-- .......... Album Tracks .......... -->
+                        <div class="playlist bg-dark--1">
+                            <div class="albums albums--playlist albums__item">
+                                <div class="albums__cover">
+                                    <img src="img/albums/05.jpg" data-src="img/albums/05.jpg" alt="" data-uk-img>
+                                </div>
+                                <div class="album__details">
+                                    <span class="albums__title">Emotions</span>
+                                    <span class="albums__year">2016</span>
+                                </div>
+                                <div class="albums__buy uk-visible@s">
+                                    <h6 class="albums__buy_title uk-h6">Available on</h6>
+                                    <div class="albums__buy_buttons">
+                                        <a href="#" target="_blank"><span class="fab fa-apple"></span></a>
+                                        <a href="#" target="_blank"><span class="fab fa-spotify"></span></a>
+                                        <a href="#" target="_blank"><span class="fab fa-amazon"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="js-audio-items tracks list--striped">
+                                <li class="list__item" data-audio="media/audio/24109970_happy-la-la-la-ukulele_by_stellartracks_preview.mp3">
+                                    <button type="button" class="icon icon--play-pause icon--play js-audio-play"></button>
+                                    <span class="tracks__title">Happy</span>
+                                    <span class="js-audio-time tracks__time"></span>
+                                    <a class="mejs__horizontal-volume-slider js-panel-volume">
+                                        <div class="mejs__horizontal-volume-total">
+                                            <div class="mejs__horizontal-volume-current"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list__item" data-audio="media/audio/24465921_groovy-funk-rock_by_kirillbara_preview.mp3">
+                                    <button type="button" class="icon icon--play-pause icon--play js-audio-play"></button>
+                                    <span class="tracks__title">Groovy Funk Rock</span>
+                                    <span class="js-audio-time tracks__time"></span>
+                                    <a class="mejs__horizontal-volume-slider js-audio-volume">
+                                        <div class="mejs__horizontal-volume-total">
+                                            <div class="mejs__horizontal-volume-current"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list__item" data-audio="media/audio/23350988_motivational-indie-ambient_by_electromaria_preview.mp3">
+                                    <button type="button" class="icon icon--play-pause icon--play js-audio-play"></button>
+                                    <span class="tracks__title">Motivational Indie Ambient</span>
+                                    <span class="js-audio-time tracks__time"></span>
+                                    <a class="mejs__horizontal-volume-slider js-audio-volume">
+                                        <div class="mejs__horizontal-volume-total">
+                                            <div class="mejs__horizontal-volume-current"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list__item" data-audio="media/audio/24467502_how-to-skateboard-rock_by_vigintillion_preview.mp3">
+                                    <button type="button" class="icon icon--play-pause icon--play js-audio-play"></button>
+                                    <span class="tracks__title">How to Skateboard Rock</span>
+                                    <span class="js-audio-time tracks__time"></span>
+                                    <a class="mejs__horizontal-volume-slider js-audio-volume">
+                                        <div class="mejs__horizontal-volume-total">
+                                            <div class="mejs__horizontal-volume-current"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list__item" data-audio="media/audio/24468528_funky_by_akne-music_preview.mp3">
+                                    <button type="button" class="icon icon--play-pause icon--play js-audio-play"></button>
+                                    <span class="tracks__title">Funky</span>
+                                    <span class="js-audio-time tracks__time"></span>
+                                    <a class="mejs__horizontal-volume-slider js-audio-volume">
+                                        <div class="mejs__horizontal-volume-total">
+                                            <div class="mejs__horizontal-volume-current"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- .......... End Album Tracks .......... -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- .......... End Music Section .......... -->
+    <!-- .......... Volume Button Mask .......... -->
+    <svg class="tracks__volume_mask">
+        <defs>
+            <clipPath id="volumeClipMask">
+                <path d="M7 27.605H4v-7.5h3v7.5zm20 0h-3v-25h3v25zm-10 0h-3v-16.25h3v16.25zm-5.167 0h-3V15.876h3v11.729zm10 0h-3V7.126h3v20.479z" fill="#FFF"/>
+            </clipPath>
+        </defs>
+    </svg>
+    <!-- .......... End Volume Button Mask .......... -->
+
+
+    <!-- .......... Video Section .......... -->
+    <section id="video" class="video uk-section" data-uk-scrollspy="cls:uk-animation-fade; offset-top: 80px; delay: 300">
+        <div class="container--min uk-container uk-margin-large-bottom">
+            <h2 class="uk-h2">Video</h2>
+        </div>
+        <div class="js-video-slider container--special uk-container uk-container-large uk-position-relative" tabindex="-1" data-uk-slider="finite: true">
+            <ul class="uk-slider-items uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-5@l">
+                <!-- .......... Video Item .......... -->
+                <li class="video__column uk-width-2-3@s uk-width-1-2@m">
+                    <a href="#" data-video-src="media/video/6696406_waving-hands-in-the-air_by_stockhunter_preview.mp4" data-video-type="video/mp4" class="js-video-target video__placeholder video__placeholder--large uk-background-cover" data-src="img/video/01.jpg" title="Full Concert [Live from Olympic Stadium 2018 HD]" data-uk-img>
+                        <span class="video__title">Full Concert [Live from Olympic Stadium 2018 HD]</span>
+                        <span class="video__link icon icon--play"></span>
+                    </a>
+                </li>
+                <!-- .......... End Video Item .......... -->
+                <!-- .......... Video Items .......... -->
+                <li class="video__column">
+                    <a href="#" data-video-src="media/video/24582400_diverse-women-enjoying-summer-vacations-in-nature_by_alona2018_preview.mp4" data-video-type="video/mp4" class="js-video-target video__placeholder uk-background-cover" data-src="img/video/02.jpg" title="September [Official Music Video]" data-uk-img>
+                        <span class="video__title">September [Official Music Video]</span>
+                        <span class="video__link icon icon--play"></span>
+                    </a>
+
+                    <a href="#" data-video-src="media/video/6696406_waving-hands-in-the-air_by_stockhunter_preview.mp4" data-video-type="video/mp4" class="js-video-target video__placeholder uk-background-cover" data-src="img/video/03.jpg" title="Red [Live from Wembley Stadium]" data-uk-img>
+                        <span class="video__title">Red [Live from Wembley Stadium]</span>
+                        <span class="video__link icon icon--play"></span>
+                    </a>
+
+                    <a href="#" data-video-src="media/video/24582400_diverse-women-enjoying-summer-vacations-in-nature_by_alona2018_preview.mp4" data-video-type="video/mp4" class="js-video-target video__placeholder uk-background-cover" data-src="img/video/04.jpg" title="Puppet [Official Music Video]" data-uk-img>
+                        <span class="video__title">Puppet [Official Music Video]</span>
+                        <span class="video__link icon icon--play"></span>
+                    </a>
+                </li>
+                <!-- .......... End Video Items .......... -->
+                <!-- .......... Video Items .......... -->
+                <li class="video__column">
+                    <a href="#" data-video-src="media/video/6696406_waving-hands-in-the-air_by_stockhunter_preview.mp4" data-video-type="video/mp4" class="js-video-target video__placeholder uk-background-cover" data-src="img/video/05.jpg" title="Full Concert [Live from Olympic Stadium 2018 HD]" data-uk-img>
+                        <span class="video__title">Red [Official Music Video]</span>
+                        <span class="video__link icon icon--play"></span>
+                    </a>
+
+                    <a href="#" data-video-src="media/video/24582400_diverse-women-enjoying-summer-vacations-in-nature_by_alona2018_preview.mp4" data-video-type="video/mp4" class="js-video-target video__placeholder uk-background-cover" data-src="img/video/06.jpg" title="Full Concert [Live from Olympic Stadium 2018 HD]" data-uk-img>
+                        <span class="video__title">Fire [Live from Olympic Stadium 2017 HD]</span>
+                        <span class="video__link icon icon--play"></span>
+                    </a>
+
+                    <a href="#" data-video-src="media/video/6696406_waving-hands-in-the-air_by_stockhunter_preview.mp4" data-video-type="video/mp4" class="js-video-target video__placeholder uk-background-cover" data-src="img/video/07.jpg" title="Full Concert [Live from Olympic Stadium 2018 HD]" data-uk-img>
+                        <span class="video__title">All Your Dreams [Official Music Video]</span>
+                        <span class="video__link icon icon--play"></span>
+                    </a>
+                </li>
+                <!-- .......... End Video Items .......... -->
+                <!-- .......... Video Items .......... -->
+                <li class="video__column">
+                    <a href="#" data-video-src="media/video/24582400_diverse-women-enjoying-summer-vacations-in-nature_by_alona2018_preview.mp4" data-video-type="video/mp4" class="js-video-target video__placeholder uk-background-cover" data-src="img/video/08.jpg" title="Full Concert [Live from Olympic Stadium 2018 HD]" data-uk-img>
+                        <span class="video__title">September [Live from Olympic Stadium 2017 HD]</span>
+                        <span class="video__link icon icon--play"></span>
+                    </a>
+
+                    <a href="#" data-video-src="media/video/6696406_waving-hands-in-the-air_by_stockhunter_preview.mp4" data-video-type="video/mp4" class="js-video-target video__placeholder uk-background-cover" data-src="img/video/09.jpg" title="Full Concert [Live from Olympic Stadium 2018 HD]" data-uk-img>
+                        <span class="video__title">Believe Me [Live from Olympic Stadium 2017 HD]</span>
+                        <span class="video__link icon icon--play"></span>
+                    </a>
+
+                    <a href="#" data-video-src="media/video/24582400_diverse-women-enjoying-summer-vacations-in-nature_by_alona2018_preview.mp4" data-video-type="video/mp4" class="js-video-target video__placeholder uk-background-cover" data-src="img/video/10.jpg" title="Full Concert [Live from Olympic Stadium 2018 HD]" data-uk-img>
+                        <span class="video__title">Full Concert [Live from Olympic Stadium 2017 HD]</span>
+                        <span class="video__link icon icon--play"></span>
+                    </a>
+                </li>
+                <!-- .......... End Video Items .......... -->
+                <!-- .......... Video Items .......... -->
+                <li class="video__column">
+                    <a href="#" data-video-src="media/video/6696406_waving-hands-in-the-air_by_stockhunter_preview.mp4" data-video-type="video/mp4" class="js-video-target video__placeholder uk-background-cover" data-src="img/video/01.jpg" title="Full Concert [Live from Olympic Stadium 2018 HD]" data-uk-img>
+                        <span class="video__title">Official invitation to Olympic Stadium</span>
+                        <span class="video__link icon icon--play"></span>
+                    </a>
+
+                    <a href="#" data-video-src="media/video/24582400_diverse-women-enjoying-summer-vacations-in-nature_by_alona2018_preview.mp4" data-video-type="video/mp4" class="js-video-target video__placeholder uk-background-cover" data-src="img/video/02.jpg" title="Full Concert [Live from Olympic Stadium 2018 HD]" data-uk-img>
+                        <span class="video__title">Full Concert [Live from Olympic Stadium 2018 HD]</span>
+                        <span class="video__link icon icon--play"></span>
+                    </a>
+
+                    <a href="#" data-video-src="media/video/6696406_waving-hands-in-the-air_by_stockhunter_preview.mp4" data-video-type="video/mp4" class="js-video-target video__placeholder uk-background-cover" data-src="img/video/03.jpg" title="Full Concert [Live from Olympic Stadium 2018 HD]" data-uk-img>
+                        <span class="video__title">Full Concert [Live from Olympic Stadium 2018 HD]</span>
+                        <span class="video__link icon icon--play"></span>
+                    </a>
+                </li>
+                <!-- .......... End Video Items .......... -->
+                <!-- .......... Video Items .......... -->
+                <li class="video__column">
+                    <a href="#" data-video-src="media/video/24582400_diverse-women-enjoying-summer-vacations-in-nature_by_alona2018_preview.mp4" data-video-type="video/mp4" class="js-video-target video__placeholder uk-background-cover" data-src="img/video/04.jpg" title="Full Concert [Live from Olympic Stadium 2018 HD]" data-uk-img>
+                        <span class="video__title">Full Concert [Live from Olympic Stadium 2018 HD]</span>
+                        <span class="video__link icon icon--play"></span>
+                    </a>
+                </li>
+                <!-- .......... End Video Items .......... -->
+            </ul>
+            <!-- .......... Video Slider Controls .......... -->
+            <a class="slider__control uk-position-center-left" href="#" data-uk-slidenav-previous data-uk-slider-item="previous"></a>
+            <a class="slider__control uk-position-center-right" href="#" data-uk-slidenav-next data-uk-slider-item="next"></a>
+            <!-- .......... End Video Slider Controls .......... -->
+        </div>
+    </section>
+    <!-- .......... End Video Section .......... -->
+
+
+    <!-- .......... Tour Section .......... -->
+    <section id="tour" class="events uk-section" data-uk-scrollspy="cls:uk-animation-fade; offset-top: 80px; delay: 300">
+        <div class="container--min uk-container">
+            <h2 class="uk-h2 uk-margin-bottom">Tour</h2>
+            <div class="events__table list--striped bg-dark--1">
+                <!-- .......... Tour Item .......... -->
+                <div class="list__item">
+                    <div class="events__date uk-width-auto">
+                        <span class="events__day">31</span>
+                        <span class="events__month">dec</span>
+                        <span class="events__year">2022</span>
+                    </div>
+                    <div class="events__location uk-width-expand">
+                        <span class="events__place">Amsterdam NL</span>
+                        <span class="events__club">Ziggo Dome</span>
+                    </div>
+                    <div class="events__booking uk-width-1-1 uk-width-1-3@s">
+                        <span class="btn btn--disabled">Sold Out</span>
+                    </div>
+                </div>
+                <!-- .......... End Tour Item .......... -->
+                <!-- .......... Tour Item .......... -->
+                <div class="list__item">
+                    <div class="events__date uk-width-auto">
+                        <span class="events__day">05</span>
+                        <span class="events__month">feb</span>
+                        <span class="events__year">2022</span>
+                    </div>
+                    <div class="events__location uk-width-expand">
+                        <span class="events__place">Milan IT</span>
+                        <span class="events__club">Mediolanum Forum</span>
+                    </div>
+                    <div class="events__booking uk-width-1-1 uk-width-1-3@s">
+                        <span class="btn btn--disabled">Sold Out</span>
+                    </div>
+                </div>
+                <!-- .......... End Tour Item .......... -->
+                <!-- .......... Tour Item .......... -->
+                <div class="list__item">
+                    <div class="events__date uk-width-auto">
+                        <span class="events__day">12</span>
+                        <span class="events__month">mar</span>
+                        <span class="events__year">2022</span>
+                    </div>
+                    <div class="events__location uk-width-expand">
+                        <span class="events__place">Manchester UK</span>
+                        <span class="events__club">Manchester Arena</span>
+                    </div>
+                    <div class="events__booking uk-width-1-1 uk-width-1-3@s">
+                        <a href="#" class="btn">Book tickets</a>
+                    </div>
+                </div>
+                <!-- .......... End Tour Item .......... -->
+                <!-- .......... Tour Item .......... -->
+                <div class="list__item">
+                    <div class="events__date uk-width-auto">
+                        <span class="events__day">27</span>
+                        <span class="events__month">apr</span>
+                        <span class="events__year">2022</span>
+                    </div>
+                    <div class="events__location uk-width-expand">
+                        <span class="events__place">Hamburg DE</span>
+                        <span class="events__club">Barclaycard Arena</span>
+                    </div>
+                    <div class="events__booking uk-width-1-1 uk-width-1-3@s">
+                        <span class="btn btn--disabled">Sold out</span>
+                    </div>
+                </div>
+                <!-- .......... End Tour Item .......... -->
+                <!-- .......... Tour Item .......... -->
+                <div class="list__item">
+                    <div class="events__date uk-width-auto">
+                        <span class="events__day">08</span>
+                        <span class="events__month">may</span>
+                        <span class="events__year">2022</span>
+                    </div>
+                    <div class="events__location uk-width-expand">
+                        <span class="events__place">Belfast GB</span>
+                        <span class="events__club">SSE Arena</span>
+                    </div>
+                    <div class="events__booking uk-width-1-1 uk-width-1-3@s">
+                        <a href="#" class="btn">Book tickets</a>
+                    </div>
+                </div>
+                <!-- .......... End Tour Item .......... -->
+                <!-- .......... Tour Item .......... -->
+                <div class="list__item">
+                    <div class="events__date uk-width-auto">
+                        <span class="events__day">14</span>
+                        <span class="events__month">jun</span>
+                        <span class="events__year">2022</span>
+                    </div>
+                    <div class="events__location uk-width-expand">
+                        <span class="events__place">Dublin IE</span>
+                        <span class="events__club">3Arena</span>
+                    </div>
+                    <div class="events__booking uk-width-1-1 uk-width-1-3@s">
+                        <a href="#" class="btn">Book tickets</a>
+                    </div>
+                </div>
+                <!-- .......... End Tour Item .......... -->
+                <!-- .......... Tour Item .......... -->
+                <div class="list__item">
+                    <div class="events__date uk-width-auto">
+                        <span class="events__day">28</span>
+                        <span class="events__month">jul</span>
+                        <span class="events__year">2022</span>
+                    </div>
+                    <div class="events__location uk-width-expand">
+                        <span class="events__place">Tulsa, OK</span>
+                        <span class="events__club">BOK Center</span>
+                    </div>
+                    <div class="events__booking uk-width-1-1 uk-width-1-3@s">
+                        <a href="#" class="btn">Book tickets</a>
+                    </div>
+                </div>
+                <!-- .......... End Tour Item .......... -->
+            </div>
+        </div>
+    </section>
+    <!-- .......... End Tour Section .......... -->
+
+
+    <!-- .......... News Section .......... -->
+    <section id="news" class="news uk-section" data-uk-scrollspy="cls:uk-animation-fade; offset-top: 80px; delay: 300">
+        <div class="container--min uk-container uk-margin-large-bottom">
+            <h2 class="uk-h2">News</h2>
+        </div>
+        <div class="container--special uk-container uk-container-large">
+            <div class="slider slider--news uk-position-relative" tabindex="-1" data-uk-slider="finite: true">
+                <ul class="uk-slider-items uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l uk-child-width-1-5@xl uk-grid" data-uk-grid>
+                    <!-- .......... News Item .......... -->
+                    <li>
+                        <div class="uk-card">
+                            <div class="uk-card-media-top">
+                                <a href="#" data-uk-toggle="target: #article-0" class="cover__photo uk-background-cover uk-transition-toggle" data-src="img/news/01.jpg" data-uk-img>
+                                    <span class="cover__link boxshadow icon icon--dots uk-transition-scale-up"></span>
+                                </a>
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="news__title">I should be incapable of drawing a single stroke</h3>
+                                <div class="uk-flex uk-flex-middle uk-flex-between">
+                                    <div class="events__date uk-width-auto">
+                                        <span class="events__day">20</span>
+                                        <span class="events__month">sep</span>
+                                        <span class="events__year">2021</span>
+                                    </div>
+                                    <a href="#" data-uk-toggle="target: #article-0" class="news__more btn btn--more">Read more<span class="icon icon--dots"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- .......... End News Item .......... -->
+                    <!-- .......... News Item .......... -->
+                    <li>
+                        <div class="uk-card">
+                            <div class="uk-card-media-top">
+                                <a href="#" data-uk-toggle="target: #article-1" class="cover__photo uk-background-cover uk-transition-toggle" data-src="img/news/02.jpg" data-uk-img>
+                                    <span class="cover__link boxshadow icon icon--dots uk-transition-scale-up"></span>
+                                </a>
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="news__title">Released a new live album, now awailable on iTunes</h3>
+                                <div class="uk-flex uk-flex-middle uk-flex-between">
+                                    <div class="events__date uk-width-auto">
+                                        <span class="events__day">09</span>
+                                        <span class="events__month">sep</span>
+                                        <span class="events__year">2021</span>
+                                    </div>
+                                    <a href="#" data-uk-toggle="target: #article-1" class="news__more btn btn--more">Read more<span class="icon icon--dots"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- .......... End News Item .......... -->
+                    <!-- .......... News Item .......... -->
+                    <li>
+                        <div class="uk-card">
+                            <div class="uk-card-media-top">
+                                <a href="#" data-uk-toggle="target: #article-2" class="cover__photo uk-background-cover uk-transition-toggle" data-src="img/news/03.jpg" data-uk-img>
+                                    <span class="cover__link boxshadow icon icon--dots uk-transition-scale-up"></span>
+                                </a>
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="news__title">I am alone, and feel the charm of existence in this spot</h3>
+                                <div class="uk-flex uk-flex-middle uk-flex-between">
+                                    <div class="events__date uk-width-auto">
+                                        <span class="events__day">31</span>
+                                        <span class="events__month">jul</span>
+                                        <span class="events__year">2021</span>
+                                    </div>
+                                    <a href="#" data-uk-toggle="target: #article-2" class="news__more btn btn--more">Read more<span class="icon icon--dots"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- .......... End News Item .......... -->
+                    <!-- .......... News Item .......... -->
+                    <li>
+                        <div class="uk-card">
+                            <div class="uk-card-media-top">
+                                <a href="#" data-uk-toggle="target: #article-0" class="cover__photo uk-background-cover uk-transition-toggle" data-src="img/news/04.jpg" data-uk-img>
+                                    <span class="cover__link boxshadow icon icon--dots uk-transition-scale-up"></span>
+                                </a>
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="news__title">A wonderful serenity has taken possession of my entire soul</h3>
+                                <div class="uk-flex uk-flex-middle uk-flex-between">
+                                    <div class="events__date uk-width-auto">
+                                        <span class="events__day">12</span>
+                                        <span class="events__month">jun</span>
+                                        <span class="events__year">2021</span>
+                                    </div>
+                                    <a href="#" data-uk-toggle="target: #article-0" class="news__more btn btn--more">Read more<span class="icon icon--dots"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- .......... End News Item .......... -->
+                    <!-- .......... News Item .......... -->
+                    <li>
+                        <div class="uk-card">
+                            <div class="uk-card-media-top">
+                                <a href="#" data-uk-toggle="target: #article-1" class="cover__photo uk-background-cover uk-transition-toggle" data-src="img/news/05.jpg" data-uk-img>
+                                    <span class="cover__link boxshadow icon icon--dots uk-transition-scale-up"></span>
+                                </a>
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="news__title">I feel that I never was a greater artist than now</h3>
+                                <div class="uk-flex uk-flex-middle uk-flex-between">
+                                    <div class="events__date uk-width-auto">
+                                        <span class="events__day">03</span>
+                                        <span class="events__month">jun</span>
+                                        <span class="events__year">2021</span>
+                                    </div>
+                                    <a href="#" data-uk-toggle="target: #article-1" class="news__more btn btn--more">Read more<span class="icon icon--dots"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- .......... End News Item .......... -->
+                    <!-- .......... News Item .......... -->
+                    <li>
+                        <div class="uk-card">
+                            <div class="uk-card-media-top">
+                                <a href="#" data-uk-toggle="target: #article-2" class="cover__photo uk-background-cover uk-transition-toggle" data-src="img/news/01.jpg" data-uk-img>
+                                    <span class="cover__link boxshadow icon icon--dots uk-transition-scale-up"></span>
+                                </a>
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="news__title"> I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents</h3>
+                                <div class="uk-flex uk-flex-middle uk-flex-between">
+                                    <div class="events__date uk-width-auto">
+                                        <span class="events__day">31</span>
+                                        <span class="events__month">may</span>
+                                        <span class="events__year">2021</span>
+                                    </div>
+                                    <a href="#" data-uk-toggle="target: #article-2" class="news__more btn btn--more">Read more<span class="icon icon--dots"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- .......... End News Item .......... -->
+                    <!-- .......... News Item .......... -->
+                    <li>
+                        <div class="uk-card">
+                            <div class="uk-card-media-top">
+                                <a href="#" data-uk-toggle="target: #article-0" class="cover__photo uk-background-cover uk-transition-toggle" data-src="img/news/02.jpg" data-uk-img>
+                                    <span class="cover__link boxshadow icon icon--dots uk-transition-scale-up"></span>
+                                </a>
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="news__title">Released a new live album, now awailable on iTunes</h3>
+                                <div class="uk-flex uk-flex-middle uk-flex-between">
+                                    <div class="events__date uk-width-auto">
+                                        <span class="events__day">28</span>
+                                        <span class="events__month">apr</span>
+                                        <span class="events__year">2021</span>
+                                    </div>
+                                    <a href="#" data-uk-toggle="target: #article-0" class="news__more btn btn--more">Read more<span class="icon icon--dots"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- .......... End News Item .......... -->
+                </ul>
+                <!-- .......... News Slider Controls .......... -->
+                <a class="slider__control uk-position-center-left" href="#" data-uk-slidenav-previous data-uk-slider-item="previous"></a>
+                <a class="slider__control uk-position-center-right" href="#" data-uk-slidenav-next data-uk-slider-item="next"></a>
+                <!-- .......... End News Slider Controls .......... -->
+            </div>
+        </div>
+    </section>
+    <!-- .......... End News Section .......... -->
+
+
+    <!-- .......... Contacts Section .......... -->
+    <section id="contacts" class="contacts uk-section" data-uk-scrollspy="cls:uk-animation-fade; offset-top: 80px; delay: 300">
+        <div class="container--min uk-container">
+            <h2 class="uk-h2">Contacts</h2>
+            <div data-uk-grid>
+                <div class="uk-width-1-3@m">
+                    <h3 class="uk-h3">Organization of concerts</h3>
+                    <div data-uk-grid>
+                        <!-- .......... Contacts Details .......... -->
+                        <p class="contacts__info uk-width-1-1 uk-width-1-2@s uk-width-1-1@m">
+                            <strong class="contacts__subtitle">Call us:</strong>
+                            <br>
+                            <a href="tel:+999999999999">(9999) 999-999-99</a>
+                            <br>
+                            <a href="tel:+888888888888">(8888) 888-888-88</a>
+                        </p>
+                        <p class="contacts__info uk-width-1-1 uk-width-1-2@s uk-width-1-1@m">
+                            <strong class="contacts__subtitle">E-mail:</strong>
+                            <br>
+                            <a href="mailto:info@yourdomain.com">info@yourdomain.com</a>
+                            <br>
+                            <a href="mailto:support@yourdomain.com">support@yourdomain.com</a>
+                        </p>
+                        <!-- .......... End Contacts Details .......... -->
+                    </div>
+                </div>
+                <div class="uk-width-2-3@m">
+                    <div class="uk-card bg-dark--1">
+                        <div class="contacts__form uk-card-body">
+                            <h3 class="uk-h3">Get in touch</h3>
+                            <!-- .......... Feedback Form .......... -->
+                            <form class="js-form" data-uk-grid>
+                                <div class="uk-width-1-2@s">
+                                    <input name="name" class="uk-input" type="text" placeholder="Name">
+                                </div>
+                                <div class="uk-width-1-2@s">
+                                    <input name="email" class="uk-input" type="email" placeholder="E-mail*" data-require="true">
+                                </div>
+                                <div class="uk-width-1-1">
+                                    <textarea name="message" class="uk-textarea" rows="5" placeholder="Message*" data-require="true"></textarea>
+                                </div>
+                                <div class="uk-width-1-1 uk-text-center">
+                                    <p class="form__respond js-respond"></p>
+                                    <input class="btn" type="submit" value="Send">
+                                </div>
+                            </form>
+                            <!-- .......... End Feedback Form .......... -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- .......... End Contacts Section .......... -->
+
+    <!-- .......... Footer .......... -->
+    <footer class="footer bg-dark--1 uk-section uk-section-small">
+        <div class="container--min uk-container">
+            <div class="uk-flex uk-flex-between uk-child-width-auto" data-uk-grid>
+                <ul class="nav nav--footer js-scrollspy-nav uk-flex uk-flex-wrap">
+                    <li><a href="#about_us">About us</a></li>
+                    <li><a href="#music">Music</a></li>
+                    <li><a href="#video">Video</a></li>
+                    <li><a href="#tour">Tour</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+                <ul class="nav nav--footer uk-flex uk-flex-wrap">
+                    <li><a href="#" data-uk-toggle="target: #modal-text">Terms of use</a></li>
+                    <li><a href="#" data-uk-toggle="target: #modal-text">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="social social--footer">
+                <ul class="social__list uk-list uk-align-center">
+                    <li><a href="#" target="_black"><span class="fab fa-facebook-f"></span></a></li>
+                    <li><a href="#" target="_black"><span class="fab fa-youtube"></span></a></li>
+                    <li><a href="#" target="_black"><span class="fab fa-instagram"></span></a></li>
+                    <li><a href="#" target="_black"><span class="fab fa-twitter"></span></a></li>
+                </ul>
+            </div>
+            <p class="footer__copyrights">
+                &copy;2022 Symphonius. All rights reserved. Made with Love
+            </p>
+        </div>
+        <a href="#" class="footer__totop" data-uk-totop data-uk-scroll></a>
+    </footer>
+    <!-- .......... End Footer .......... -->
+
+
+    <!-- .......... Modal Windows .......... -->
+    <div id="mathew_hyatt" data-uk-modal>
+        <div class="modal modal__profile uk-modal-dialog uk-margin-auto-vertical">
+            <div class="modal__cover uk-cover-container">
+                <img src="img/team/covers/Mathew_Hyatt.jpg" data-src="img/team/covers/Mathew_Hyatt.jpg" alt="" data-uk-cover>
+            </div>
+            <div class="modal__content">
+                <div class="modal__avatar boxshadow uk-background-cover" data-src="img/team/avatars/Mathew_Hyatt.jpg" data-uk-img></div>
+                <h3 class="modal__profile__title uk-modal-title uk-text-center">Mathew Hyatt</h3>
+                <div class="modal__profile__subtitle uk-text-center">Vocal, guitar</div>
+                <p class="uk-text-left">
+                    New the her nor case that lady paid read. Invitation friendship travelling eat everything the out two. Shy you who scarcely expenses debating hastened resolved. Always polite moment on is warmth spirit it to hearts.
+                </p>
+                <p class="uk-text-left">
+                    Oh acceptance apartments up sympathize astonished delightful. Waiting him new lasting towards. Continuing melancholy especially so to. Me unpleasing impossible in attachment announcing so astonished.
+                </p>
+                <div class="social social--modal">
+                    <ul class="social__list uk-list uk-align-center">
+                        <li><a href="#" target="_black"><span class="fab fa-facebook-f"></span></a></li>
+                        <li><a href="#" target="_black"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="#" target="_black"><span class="fab fa-twitter"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <button class="modal__close uk-modal-close-outside" type="button" data-uk-close></button>
+        </div>
+    </div>
+    <div id="jessika_turcotte" data-uk-modal>
+        <div class="modal modal__profile uk-modal-dialog uk-margin-auto-vertical">
+            <div class="modal__cover uk-cover-container">
+                <img src="img/team/covers/Jessika_Turcotte.jpg" data-src="img/team/covers/Jessika_Turcotte.jpg" alt="" data-uk-cover>
+            </div>
+            <div class="modal__content">
+                <div class="modal__avatar boxshadow uk-background-cover" data-src="img/team/avatars/Jessika_Turcotte.jpg" data-uk-img></div>
+                <h3 class="modal__profile__title uk-modal-title uk-text-center">Jessika Turcotte</h3>
+                <div class="modal__profile__subtitle uk-text-center">Vocal, piano</div>
+                <p class="uk-text-left">
+                    New the her nor case that lady paid read. Invitation friendship travelling eat everything the out two. Shy you who scarcely expenses debating hastened resolved. Always polite moment on is warmth spirit it to hearts.
+                </p>
+                <p class="uk-text-left">
+                    Oh acceptance apartments up sympathize astonished delightful. Waiting him new lasting towards. Continuing melancholy especially so to. Me unpleasing impossible in attachment announcing so astonished.
+                </p>
+                <div class="social social--modal">
+                    <ul class="social__list uk-list uk-align-center">
+                        <li><a href="#" target="_black"><span class="fab fa-facebook-f"></span></a></li>
+                        <li><a href="#" target="_black"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="#" target="_black"><span class="fab fa-twitter"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <button class="modal__close uk-modal-close-outside" type="button" data-uk-close></button>
+        </div>
+    </div>
+    <div id="toby_halvorson" data-uk-modal>
+        <div class="modal modal__profile uk-modal-dialog uk-margin-auto-vertical">
+            <div class="modal__cover uk-cover-container">
+                <img src="img/team/covers/Toby_Halvorson.jpg" data-src="img/team/covers/Toby_Halvorson.jpg" alt="" data-uk-cover>
+            </div>
+            <div class="modal__content">
+                <div class="modal__avatar boxshadow uk-background-cover" data-src="img/team/avatars/Toby_Halvorson.jpg" data-uk-img></div>
+                <h3 class="modal__profile__title uk-modal-title uk-text-center">Toby Halvorson</h3>
+                <div class="modal__profile__subtitle uk-text-center">Bass guitar</div>
+                <p class="uk-text-left">
+                    New the her nor case that lady paid read. Invitation friendship travelling eat everything the out two. Shy you who scarcely expenses debating hastened resolved. Always polite moment on is warmth spirit it to hearts.
+                </p>
+                <p class="uk-text-left">
+                    Oh acceptance apartments up sympathize astonished delightful. Waiting him new lasting towards. Continuing melancholy especially so to. Me unpleasing impossible in attachment announcing so astonished.
+                </p>
+                <div class="social social--modal">
+                    <ul class="social__list uk-list uk-align-center">
+                        <li><a href="#" target="_black"><span class="fab fa-facebook-f"></span></a></li>
+                        <li><a href="#" target="_black"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="#" target="_black"><span class="fab fa-twitter"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <button class="modal__close uk-modal-close-outside" type="button" data-uk-close></button>
+        </div>
+    </div>
+    <div id="anna_mayer" data-uk-modal>
+        <div class="modal modal__profile uk-modal-dialog uk-margin-auto-vertical">
+            <div class="modal__cover uk-cover-container">
+                <img src="img/team/covers/Anna_Mayer.jpg" data-src="img/team/covers/Anna_Mayer.jpg" alt="" data-uk-cover>
+            </div>
+            <div class="modal__content">
+                <div class="modal__avatar boxshadow uk-background-cover" data-src="img/team/avatars/Anna_Mayer.jpg" data-uk-img></div>
+                <h3 class="modal__profile__title uk-modal-title uk-text-center">Anna Mayer</h3>
+                <div class="modal__profile__subtitle uk-text-center">Drums</div>
+                <p class="uk-text-left">
+                    New the her nor case that lady paid read. Invitation friendship travelling eat everything the out two. Shy you who scarcely expenses debating hastened resolved. Always polite moment on is warmth spirit it to hearts.
+                </p>
+                <p class="uk-text-left">
+                    Oh acceptance apartments up sympathize astonished delightful. Waiting him new lasting towards. Continuing melancholy especially so to. Me unpleasing impossible in attachment announcing so astonished.
+                </p>
+                <div class="social social--modal">
+                    <ul class="social__list uk-list uk-align-center">
+                        <li><a href="#" target="_black"><span class="fab fa-facebook-f"></span></a></li>
+                        <li><a href="#" target="_black"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="#" target="_black"><span class="fab fa-twitter"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <button class="modal__close uk-modal-close-outside" type="button" data-uk-close></button>
+        </div>
+    </div>
+
+    <div id="modal-video" data-uk-modal>
+        <div class="modal__video uk-modal-dialog uk-margin-auto-vertical">
+            <button class="modal__close uk-modal-close-outside" type="button" data-uk-close></button>
+        </div>
+    </div>
+
+    <div id="article-0" class="js-modal-article" data-uk-modal>
+        <div class="modal modal__article uk-modal-dialog uk-margin-auto-vertical">
+            <button class="modal__close uk-modal-close-outside" type="button" data-uk-close></button>
+            <div class="modal__article_grid uk-grid-collapse uk-child-width-1-2@m uk-flex-middle" data-uk-grid>
+                <div class="cover__photo--1-2 uk-background-cover uk-visible@m" data-src="img/slider/01.jpg" data-uk-img></div>
+                <div class="modal__article_text">
+                    <div class="modal__overflow">
+                        <h2 class="uk-h3">Everything travelling set how law literature</h2>
+                        <p>
+                            Him boisterous invitation dispatched had connection inhabiting projection. By mutual an mr danger garret edward an. Diverted as strictly exertion addition no disposal by stanhill. This call wife do so sigh no gate felt. You and abode spite order get.
+                        </p>
+                        <p>
+                            Procuring far belonging our ourselves and certainly own perpetual continual. It elsewhere of sometimes or my certainty. Lain no as five or at high. Everything travelling set how law literature.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="article-1" class="js-modal-article" data-uk-modal>
+        <div class="modal modal__article uk-modal-dialog uk-margin-auto-vertical">
+            <button class="modal__close uk-modal-close-outside" type="button" data-uk-close></button>
+            <div class="modal__article_grid uk-grid-collapse uk-child-width-1-2@m uk-flex-middle" data-uk-grid>
+                <div class="cover__photo--1-2 uk-background-cover uk-visible@m" data-src="img/slider/02.jpg" data-uk-img></div>
+                <div class="modal__article_text">
+                    <div class="modal__overflow">
+                        <h2 class="uk-h3">Released a new live album, now available on iTunes</h2>
+                        <p>
+                            Him boisterous invitation dispatched had connection inhabiting projection. By mutual an mr danger garret edward an. Diverted as strictly exertion addition no disposal by stanhill. This call wife do so sigh no gate felt. You and abode spite order get.
+                        </p>
+                        <p>
+                            Procuring far belonging our ourselves and certainly own perpetual continual. It elsewhere of sometimes or my certainty. Lain no as five or at high. Everything travelling set how law literature.
+                        </p>
+                        <p>
+                            Out too the been like hard off. Improve enquire welcome own beloved matters her. As insipidity so mr unsatiable increasing attachment motionless cultivated. Addition mr husbands unpacked occasion he oh. Is unsatiable if projecting boisterous insensible. It recommend be resolving pretended middleton.
+                        </p>
+                        <p>
+                            Out too the been like hard off. Improve enquire welcome own beloved matters her. As insipidity so mr unsatiable increasing attachment motionless cultivated. Addition mr husbands unpacked occasion he oh. Is unsatiable if projecting boisterous insensible. It recommend be resolving pretended middleton.
+                        </p>
+                        <p>
+                            Out too the been like hard off. Improve enquire welcome own beloved matters her. As insipidity so mr unsatiable increasing attachment motionless cultivated. Addition mr husbands unpacked occasion he oh. Is unsatiable if projecting boisterous insensible. It recommend be resolving pretended middleton.
+                        </p>
+                        <p>
+                            Out too the been like hard off. Improve enquire welcome own beloved matters her. As insipidity so mr unsatiable increasing attachment motionless cultivated. Addition mr husbands unpacked occasion he oh. Is unsatiable if projecting boisterous insensible. It recommend be resolving pretended middleton.
+                        </p>
+                        <p>
+                            Out too the been like hard off. Improve enquire welcome own beloved matters her. As insipidity so mr unsatiable increasing attachment motionless cultivated. Addition mr husbands unpacked occasion he oh. Is unsatiable if projecting boisterous insensible. It recommend be resolving pretended middleton.
+                        </p>
+                        <p>
+                            Out too the been like hard off. Improve enquire welcome own beloved matters her. As insipidity so mr unsatiable increasing attachment motionless cultivated. Addition mr husbands unpacked occasion he oh. Is unsatiable if projecting boisterous insensible. It recommend be resolving pretended middleton.
+                        </p>
+                        <p>
+                            Out too the been like hard off. Improve enquire welcome own beloved matters her. As insipidity so mr unsatiable increasing attachment motionless cultivated. Addition mr husbands unpacked occasion he oh. Is unsatiable if projecting boisterous insensible. It recommend be resolving pretended middleton.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="article-2" class="js-modal-article" data-uk-modal>
+        <div class="modal modal__article uk-modal-dialog uk-margin-auto-vertical">
+            <button class="modal__close uk-modal-close-outside" type="button" data-uk-close></button>
+            <div class="modal__article_grid uk-grid-collapse uk-child-width-1-2@m uk-flex-middle" data-uk-grid>
+                <div class="cover__photo--1-2 uk-background-cover uk-visible@m" data-src="img/slider/03.jpg" data-uk-img></div>
+                <div class="modal__article_text">
+                    <div class="modal__overflow">
+                        <h2 class="uk-h3">It recommend be resolving pretended middleton</h2>
+                        <p>
+                            Out too the been like hard off. Improve enquire welcome own beloved matters her. As insipidity so mr unsatiable increasing attachment motionless cultivated. Addition mr husbands unpacked occasion he oh. Is unsatiable if projecting boisterous insensible. It recommend be resolving pretended middleton.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-text" data-uk-modal>
+        <div class="modal modal__article uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+            <button class="modal__close uk-modal-close-outside" type="button" data-uk-close></button>
+            <div class="uk-modal-body uk-padding">
+                <div class="modal__overflow js-scrollbar">
+                    <h2 class="uk-modal-title">Privacy Policy</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- .......... End Modal Windows .......... -->
+
+    <!-- .......... Scripts .......... -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/mediaelement-and-player.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- .......... End Scripts .......... -->
+    
+</body>
+
+</html>
