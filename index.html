@@ -44,36 +44,7 @@ F<!DOCTYPE html>
     <header class="panel js-panel">
         <div class="container--panel uk-container uk-height-1-1">
             <div class="uk-flex uk-flex-middle uk-height-1-1" data-uk-grid>
-                <div class="uk-width-1-3 uk-width-1-6@m">
-                    <div class="logo logo--panel uk-visible@m">
-                        <a href="#intro" data-uk-scroll>
-                            <!-- .......... Logo .......... -->
-                            <!-- img src="img/logo.svg" alt=""-->
-                            <!-- .......... End Logo .......... -->
-                        </a>
-                    </div>
-                    <div class="logo logo--panel uk-hidden@m">
-                        <a href="#intro" data-uk-scroll>
-                            <!-- .......... Mobile Version Logo .......... -->
-                            <img src="img/logo_small.svg" alt="">
-                            <!-- .......... End Mobile Version Logo .......... -->
-                        </a>
-                    </div>
-                </div>
-                <div class="uk-width-2-3 uk-visible@m">
-                    <h1>Melodians</h1>
-                    <br/>
-                    <!-- .......... Navigation .......... -->
-                    <ul class="nav nav--panel js-scrollspy-nav uk-flex uk-flex-wrap">
-                        <li><a href="#about_us">About us</a></li>
-                        <!--li><a href="#music">Music</a></li-->
-                        <li><a href="#video">Video</a></li>
-                        <!--li><a href="#tour">Tour</a></li-->
-                        <!-- li><a href="#news">News</a></li-->
-                        <li><a href="#contacts">Contacts</a></li>
-                    </ul>
-                    <!-- .......... End Navigation .......... -->
-                </div>
+                
                 <div class="uk-width-1-3 uk-width-1-6@m">
                     <!-- .......... Player Controls .......... -->
                     <div class="panel__player">
@@ -87,46 +58,19 @@ F<!DOCTYPE html>
                     </div>                    
                     <!-- .......... End Player Controls .......... -->
                 </div>
-                <div class="uk-width-1-3 uk-hidden@m uk-text-right">
-                    <!-- .......... Navigation Toggle .......... -->
-                    <a href="#" data-uk-toggle="target: #offcanvas-nav">Menu</a>
-                    <!-- .......... End Navigation Toggle .......... -->
-                </div>
             </div>
         </div>
     </header>
-    <!-- .......... End Fixed Top Panel .......... -->
-    <div id="offcanvas-nav" data-uk-offcanvas="flip: true; mode: push; overlay: true">
-        <div class="uk-offcanvas-bar">
-            <button class="modal__close uk-offcanvas-close" type="button" data-uk-close></button>
-            <!-- .......... Navigation .......... -->
-            <ul class="nav nav--offcanvas js-scrollspy-nav js-offcanvas-nav uk-flex">
-                <li><a href="#about_us">About us</a></li>
-                <!--li><a href="#music">Music</a></li-->
-                <li><a href="#video">Video</a></li>
-                <!-- li><a href="#tour">Tour</a></li-->
-                <!--li><a href="#news">News</a></li-->
-                <li><a href="#contacts">Contacts</a></li>
-            </ul>
-            <!-- .......... End Navigation .......... -->
-        </div>
-    </div>
-
     
-
-
     <!-- .......... About Us Section .......... -->
     <section id="about_us" class="about uk-section" data-uk-scrollspy="cls:uk-animation-fade; offset-top: 80px; delay: 300">
         <div class="uk-container uk-container-large">
             <div class="about__grid uk-grid-collapse uk-flex" data-uk-grid>
                 <div class="uk-width-1-2@s">
                     <div class="about__info">
-                        <h2 class="uk-h2">The Melodians</h2>
+                        <h2 class="uk-h2">The Melodians</h2>    
                         <p>
-                            The Melodians.
-                        </p>
-                        <p>
-                            Acoustic band from Zürich.
+                            Acoustic Live Band based In Switzerland. We play rock, folk, country, tangos, filmmusik. Covers and own compositions are in our repertoire.  We sing in verious languages like english, german, spanish, italian, french, yiddish, ukrainian, russian, polish, serbian, portuguese. Musik is our passion and we play it with a lot of fun. Three of us are professionals with a long record of performances on European stages. Unforgettable impressions is a guaranty.
                         </p>
                     </div>
                 </div>
@@ -151,6 +95,8 @@ F<!DOCTYPE html>
                         </div>
                         <span class="team__name">Marian Boba</span>
                         <span class="team__vocation">Piano</span>
+                        <br/>
+                        <span class="team__vocation">Short description</span>
                     </a>
                 </div>
                 <div class="team__member__wrap uk-width-1-2 uk-width-1-4@m">
@@ -160,6 +106,8 @@ F<!DOCTYPE html>
                         </div>
                         <span class="team__name">Monika Fischer</span>
                         <span class="team__vocation">Vocal</span>
+                        <br/>
+                        <span class="team__vocation">Short description</span>
                     </a>
                 </div>
                 <div class="team__member__wrap uk-width-1-2 uk-width-1-4@m">
@@ -169,15 +117,19 @@ F<!DOCTYPE html>
                         </div>
                         <span class="team__name">Victor Mendoza</span>
                         <span class="team__vocation">Violin</span>
+                        <br/>
+                        <span class="team__vocation">Short description</span>
                     </a>
                 </div>
                 <div class="team__member__wrap uk-width-1-2 uk-width-1-4@m">
-                    <a class="team__member" data-uk-toggle="target: #anna_mayer">
+                    <a class="team__member" data-uk-toggle="target: #tomek">
                         <div class="cover__photo uk-background-cover uk-transition-toggle" data-src="img/team/avatars/tomek.jpg" data-uk-img>
                             <span class="cover__link boxshadow icon icon--dots uk-transition-scale-up"></span>
                         </div>
                         <span class="team__name">Tomek Rybarczyk</span>
                         <span class="team__vocation">Guitar, vocal</span>
+                        <br/>
+                        <span class="team__vocation">Short description</span>
                     </a>
                 </div>
             </div>
@@ -186,15 +138,7 @@ F<!DOCTYPE html>
     <!-- .......... End Meet Team Section .......... -->
 
 
-    <!-- .......... Volume Button Mask .......... -->
-    <svg class="tracks__volume_mask">
-        <defs>
-            <clipPath id="volumeClipMask">
-                <path d="M7 27.605H4v-7.5h3v7.5zm20 0h-3v-25h3v25zm-10 0h-3v-16.25h3v16.25zm-5.167 0h-3V15.876h3v11.729zm10 0h-3V7.126h3v20.479z" fill="#FFF"/>
-            </clipPath>
-        </defs>
-    </svg>
-    <!-- .......... End Volume Button Mask .......... -->
+
 
 
     <!-- .......... Video Section .......... -->
@@ -304,7 +248,7 @@ F<!DOCTYPE html>
     <!-- .......... Tour Section .......... -->
     <section id="tour" class="events uk-section" data-uk-scrollspy="cls:uk-animation-fade; offset-top: 80px; delay: 300">
         <div class="container--min uk-container">
-            <h2 class="uk-h2 uk-margin-bottom">Events</h2>
+            <h2 class="uk-h2 uk-margin-bottom">Open events</h2>
             <div class="events__table list--striped bg-dark--1">
                 <!-- .......... Tour Item .......... -->
                 <div class="list__item">
@@ -318,7 +262,7 @@ F<!DOCTYPE html>
                         <span class="events__club">Restaurant Europa</span>
                     </div>
                     <div class="events__booking uk-width-1-1 uk-width-1-3@s">
-                        <a href="#" class="btn">Book tickets</a>
+                        <a href="https://www.restaurant-europa.ch/reservation" target="_blank" class="btn">Reserve tickets</a>
                     </div>
                 </div>
                 <!-- .......... End Tour Item .......... -->
@@ -334,7 +278,7 @@ F<!DOCTYPE html>
                         <span class="events__club">Restaurant Europa</span>
                     </div>
                     <div class="events__booking uk-width-1-1 uk-width-1-3@s">
-                        <a href="#" class="btn">Book tickets</a>
+                        <a href="https://www.restaurant-europa.ch/reservation" target="_blank" class="btn">Reserve tickets</a>
                     </div>
                 </div>
                 <!-- .......... End Tour Item .......... -->
@@ -397,27 +341,29 @@ F<!DOCTYPE html>
             <h2 class="uk-h2">Contacts</h2>
             <div data-uk-grid>
                 <div class="uk-width-1-3@m">
-                    <h3 class="uk-h3">Organization of concerts</h3>
+                    <!-- h3 class="uk-h3">Organization of concerts</h3-->
                     <div data-uk-grid>
-                        <!-- .......... Contacts Details .......... -->
                         <p class="contacts__info uk-width-1-1 uk-width-1-2@s uk-width-1-1@m">
                             <strong class="contacts__subtitle">Call us:</strong>
                             <br>
                             <a href="tel:+41762320508">(+41) 76 232 05 08</a>
                         </p>
+                    </div>
+                </div>
+                <div class="uk-width-1-3@m">
+                    <!-- h3 class="uk-h3">Organization of concerts</h3-->
+                    <div data-uk-grid>
                         <p class="contacts__info uk-width-1-1 uk-width-1-2@s uk-width-1-1@m">
                             <strong class="contacts__subtitle">E-mail:</strong>
                             <br>
                             <a href="mailto:info@melodians.c">info@melodians.ch</a>
                         </p>
-                        <!-- .......... End Contacts Details .......... -->
                     </div>
                 </div>
-                <div class="uk-width-2-3@m">
+                <!-- div class="uk-width-2-3@m">
                     <div class="uk-card bg-dark--1">
                         <div class="contacts__form uk-card-body">
                             <h3 class="uk-h3">Get in touch</h3>
-                            <!-- .......... Feedback Form .......... -->
                             <form class="js-form" data-uk-grid>
                                 <div class="uk-width-1-2@s">
                                     <input name="name" class="uk-input" type="text" placeholder="Name">
@@ -433,10 +379,9 @@ F<!DOCTYPE html>
                                     <input class="btn" type="submit" value="Send">
                                 </div>
                             </form>
-                            <!-- .......... End Feedback Form .......... -->
                         </div>
                     </div>
-                </div>
+                </div-->
             </div>
         </div>
     </section>
@@ -446,14 +391,7 @@ F<!DOCTYPE html>
     <footer class="footer bg-dark--1 uk-section uk-section-small">
         <div class="container--min uk-container">
             <div class="uk-flex uk-flex-between uk-child-width-auto" data-uk-grid>
-                <ul class="nav nav--footer js-scrollspy-nav uk-flex uk-flex-wrap">
-                    <li><a href="#about_us">About us</a></li>
-                    <!--li><a href="#music">Music</a></li-->
-                    <li><a href="#video">Video</a></li>
-                    <li><a href="#tour">Tour</a></li>
-                    <!--li><a href="#news">News</a></li-->
-                    <li><a href="#contacts">Contacts</a></li>
-                </ul>
+                
                 <!--ul class="nav nav--footer uk-flex uk-flex-wrap">
                     <li><a href="#" data-uk-toggle="target: #modal-text">Terms of use</a></li>
                     <li><a href="#" data-uk-toggle="target: #modal-text">Privacy Policy</a></li>
@@ -477,15 +415,15 @@ F<!DOCTYPE html>
 
 
     <!-- .......... Modal Windows .......... -->
-    <div id="mathew_hyatt" data-uk-modal>
+    <div id="marian" data-uk-modal>
         <div class="modal modal__profile uk-modal-dialog uk-margin-auto-vertical">
             <div class="modal__cover uk-cover-container">
-                <img src="img/team/covers/Mathew_Hyatt.jpg" data-src="img/team/covers/Mathew_Hyatt.jpg" alt="" data-uk-cover>
+                <img src="img/team/covers/marian.jpg" data-src="img/team/covers/marian.jpg" alt="" data-uk-cover>
             </div>
             <div class="modal__content">
-                <div class="modal__avatar boxshadow uk-background-cover" data-src="img/team/avatars/Mathew_Hyatt.jpg" data-uk-img></div>
-                <h3 class="modal__profile__title uk-modal-title uk-text-center">Mathew Hyatt</h3>
-                <div class="modal__profile__subtitle uk-text-center">Vocal, guitar</div>
+                <div class="modal__avatar boxshadow uk-background-cover" data-src="img/team/avatars/marian.jpg" data-uk-img></div>
+                <h3 class="modal__profile__title uk-modal-title uk-text-center">Marian Boba</h3>
+                <div class="modal__profile__subtitle uk-text-center">Piano</div>
                 <p class="uk-text-left">
                     New the her nor case that lady paid read. Invitation friendship travelling eat everything the out two. Shy you who scarcely expenses debating hastened resolved. Always polite moment on is warmth spirit it to hearts.
                 </p>
@@ -494,7 +432,7 @@ F<!DOCTYPE html>
                 </p>
                 <div class="social social--modal">
                     <ul class="social__list uk-list uk-align-center">
-                        <li><a href="https://www.facebook.com/profile.php?id=100075964676667" target="_black"><span class="fab fa-facebook-f"></span></a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100085638232089" target="_black"><span class="fab fa-facebook-f"></span></a></li>
                         <!--li><a href="#" target="_black"><span class="fab fa-instagram"></span></a></li>
                         <li><a href="#" target="_black"><span class="fab fa-twitter"></span></a></li-->
                     </ul>
@@ -503,15 +441,41 @@ F<!DOCTYPE html>
             <button class="modal__close uk-modal-close-outside" type="button" data-uk-close></button>
         </div>
     </div>
-    <div id="jessika_turcotte" data-uk-modal>
+    <div id="monika" data-uk-modal>
         <div class="modal modal__profile uk-modal-dialog uk-margin-auto-vertical">
             <div class="modal__cover uk-cover-container">
-                <img src="img/team/covers/Jessika_Turcotte.jpg" data-src="img/team/covers/Jessika_Turcotte.jpg" alt="" data-uk-cover>
+                <img src="img/team/covers/monika.jpg" data-src="img/team/covers/monika.jpg" alt="" data-uk-cover>
             </div>
             <div class="modal__content">
-                <div class="modal__avatar boxshadow uk-background-cover" data-src="img/team/avatars/Jessika_Turcotte.jpg" data-uk-img></div>
-                <h3 class="modal__profile__title uk-modal-title uk-text-center">Jessika Turcotte</h3>
-                <div class="modal__profile__subtitle uk-text-center">Vocal, piano</div>
+                <div class="modal__avatar boxshadow uk-background-cover" data-src="img/team/avatars/monika.jpg" data-uk-img></div>
+                <h3 class="modal__profile__title uk-modal-title uk-text-center">Monika Fischer</h3>
+                <div class="modal__profile__subtitle uk-text-center">Vocal</div>
+                <p class="uk-text-left">
+                    New the her nor case that lady paid read. Invitation friendship travelling eat everything the out two. Shy you who scarcely expenses debating hastened resolved. Always polite moment on is warmth spirit it to hearts.
+                </p>
+                <p class="uk-text-left">
+                    Oh acceptance apartments up sympathize astonished delightful. Waiting him new lasting towards. Continuing melancholy especially so to. Me unpleasing impossible in attachment announcing so astonished.
+                </p>
+                <!-- div class="social social--modal">
+                    <ul class="social__list uk-list uk-align-center">
+                        <li><a href="https://www.facebook.com/profile.php?id=100075964676667" target="_black"><span class="fab fa-facebook-f"></span></a></li>
+                        <li><a href="#" target="_black"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="#" target="_black"><span class="fab fa-twitter"></span></a></li>
+                    </ul>
+                </div-->
+            </div>
+            <button class="modal__close uk-modal-close-outside" type="button" data-uk-close></button>
+        </div>
+    </div>
+    <div id="victor" data-uk-modal>
+        <div class="modal modal__profile uk-modal-dialog uk-margin-auto-vertical">
+            <div class="modal__cover uk-cover-container">
+                <img src="img/team/covers/Victor.jpg" data-src="img/team/covers/Victor.jpg" alt="" data-uk-cover>
+            </div>
+            <div class="modal__content">
+                <div class="modal__avatar boxshadow uk-background-cover" data-src="img/team/avatars/Victor.jpg" data-uk-img></div>
+                <h3 class="modal__profile__title uk-modal-title uk-text-center">Victor Menoza</h3>
+                <div class="modal__profile__subtitle uk-text-center">Violin</div>
                 <p class="uk-text-left">
                     New the her nor case that lady paid read. Invitation friendship travelling eat everything the out two. Shy you who scarcely expenses debating hastened resolved. Always polite moment on is warmth spirit it to hearts.
                 </p>
@@ -520,7 +484,7 @@ F<!DOCTYPE html>
                 </p>
                 <div class="social social--modal">
                     <ul class="social__list uk-list uk-align-center">
-                        <li><a href="https://www.facebook.com/profile.php?id=100075964676667" target="_black"><span class="fab fa-facebook-f"></span></a></li>
+                        <li><a href="https://www.facebook.com/victor.j.musik" target="_black"><span class="fab fa-facebook-f"></span></a></li>
                         <!--li><a href="#" target="_black"><span class="fab fa-instagram"></span></a></li>
                         <li><a href="#" target="_black"><span class="fab fa-twitter"></span></a></li-->
                     </ul>
@@ -529,15 +493,15 @@ F<!DOCTYPE html>
             <button class="modal__close uk-modal-close-outside" type="button" data-uk-close></button>
         </div>
     </div>
-    <div id="toby_halvorson" data-uk-modal>
+    <div id="tomek" data-uk-modal>
         <div class="modal modal__profile uk-modal-dialog uk-margin-auto-vertical">
             <div class="modal__cover uk-cover-container">
-                <img src="img/team/covers/Toby_Halvorson.jpg" data-src="img/team/covers/Toby_Halvorson.jpg" alt="" data-uk-cover>
+                <img src="img/team/covers/tomek.jpg" data-src="img/team/covers/tomek.jpg" alt="" data-uk-cover>
             </div>
             <div class="modal__content">
-                <div class="modal__avatar boxshadow uk-background-cover" data-src="img/team/avatars/Toby_Halvorson.jpg" data-uk-img></div>
-                <h3 class="modal__profile__title uk-modal-title uk-text-center">Toby Halvorson</h3>
-                <div class="modal__profile__subtitle uk-text-center">Bass guitar</div>
+                <div class="modal__avatar boxshadow uk-background-cover" data-src="img/team/avatars/tomek.jpg" data-uk-img></div>
+                <h3 class="modal__profile__title uk-modal-title uk-text-center">Tomek</h3>
+                <div class="modal__profile__subtitle uk-text-center">Guitar, vocal</div>
                 <p class="uk-text-left">
                     New the her nor case that lady paid read. Invitation friendship travelling eat everything the out two. Shy you who scarcely expenses debating hastened resolved. Always polite moment on is warmth spirit it to hearts.
                 </p>
@@ -546,33 +510,7 @@ F<!DOCTYPE html>
                 </p>
                 <div class="social social--modal">
                     <ul class="social__list uk-list uk-align-center">
-                        <li><a href="https://www.facebook.com/profile.php?id=100075964676667" target="_black"><span class="fab fa-facebook-f"></span></a></li>
-                        <!--li><a href="#" target="_black"><span class="fab fa-instagram"></span></a></li>
-                        <li><a href="#" target="_black"><span class="fab fa-twitter"></span></a></li-->
-                    </ul>
-                </div>
-            </div>
-            <button class="modal__close uk-modal-close-outside" type="button" data-uk-close></button>
-        </div>
-    </div>
-    <div id="anna_mayer" data-uk-modal>
-        <div class="modal modal__profile uk-modal-dialog uk-margin-auto-vertical">
-            <div class="modal__cover uk-cover-container">
-                <img src="img/team/covers/Anna_Mayer.jpg" data-src="img/team/covers/Anna_Mayer.jpg" alt="" data-uk-cover>
-            </div>
-            <div class="modal__content">
-                <div class="modal__avatar boxshadow uk-background-cover" data-src="img/team/avatars/Anna_Mayer.jpg" data-uk-img></div>
-                <h3 class="modal__profile__title uk-modal-title uk-text-center">Anna Mayer</h3>
-                <div class="modal__profile__subtitle uk-text-center">Drums</div>
-                <p class="uk-text-left">
-                    New the her nor case that lady paid read. Invitation friendship travelling eat everything the out two. Shy you who scarcely expenses debating hastened resolved. Always polite moment on is warmth spirit it to hearts.
-                </p>
-                <p class="uk-text-left">
-                    Oh acceptance apartments up sympathize astonished delightful. Waiting him new lasting towards. Continuing melancholy especially so to. Me unpleasing impossible in attachment announcing so astonished.
-                </p>
-                <div class="social social--modal">
-                    <ul class="social__list uk-list uk-align-center">
-                        <li><a href="https://www.facebook.com/profile.php?id=100075964676667" target="_black"><span class="fab fa-facebook-f"></span></a></li>
+                        <li><a href="https://www.facebook.com/tomasz.rybarczyk.94/" target="_black"><span class="fab fa-facebook-f"></span></a></li>
                         <!--li><a href="#" target="_black"><span class="fab fa-instagram"></span></a></li>
                         <li><a href="#" target="_black"><span class="fab fa-twitter"></span></a></li-->
                     </ul>
@@ -641,43 +579,7 @@ F<!DOCTYPE html>
         </div>
     </div>
 
-    <div id="modal-text" data-uk-modal>
-        <div class="modal modal__article uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
-            <button class="modal__close uk-modal-close-outside" type="button" data-uk-close></button>
-            <div class="uk-modal-body uk-padding">
-                <div class="modal__overflow js-scrollbar">
-                    <h2 class="uk-modal-title">Privacy Policy</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <!-- .......... End Modal Windows .......... -->
 
     <!-- .......... Scripts .......... -->
